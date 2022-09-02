@@ -1,0 +1,330 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+/* header part */
+header{
+  background-color: #FEDB39;
+}
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 50px;
+
+}
+.main-header{
+  width: 100%;
+}
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+.main-header{
+  width: 100%;
+}
+
+.left{
+  float: left;
+  padding-top: 13px;
+  padding-bottom:10px;
+}
+.right{
+  float: right;
+}
+
+.right ul li{
+  display: inline-block;
+  padding: 10px 15px 5px 15px;
+  font-size:17px;
+  font-family: Montserrat;
+}
+
+.right a{
+  text-decoration: none;
+  color: #000;
+}
+
+.right a:hover{
+  color: #ffffff;
+  text-shadow: 0 0 0.6em #ffffff, 0 0 0.4em #e4e3e3;
+}
+
+/* BANNER PORTION */
+
+.banner{
+  position: relative;
+}
+
+.banner img{
+  width: 100%;
+  height:500px;
+}
+
+.banner-content{
+  position: absolute;
+
+  transform: translate(83%, -250%);
+  font-size: 33px;
+  font-family: Montserrat;
+  color: #fff;
+  text-shadow: 0 0 0.4em #ffffff, 0 0 0.6em #e4e3e3;
+
+}
+.card-section{
+  margin: 30px 0;
+}
+
+h2{
+  padding-top: 30px;
+  font-family: Montserrat;
+}
+
+.row{
+  width: 100%;
+}
+
+.column{
+  width: 23%;
+  float:left;
+  text-align: center;
+  background-color: #FEDB39;
+  margin: 11px;
+}
+
+.column img{
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 50px;
+
+}
+
+.image-border{
+  border-top: 5px solid white;
+}
+
+.card-para{
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+
+
+.trend-part{
+  margin: 30px 0;
+}
+
+.rowing{
+  width: 100%;
+}
+
+.trending{
+  text-align: center;
+
+}
+.mid-para{
+  padding: 30px;
+  font-family: Montserrat
+
+}
+.column-part{
+  width: 23%;
+  float: left;
+  text-align: center;
+  margin: 11PX;
+}
+.home{
+  border-radius: 14%;
+
+}
+.column-part img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  float: left;
+  height: 200px;
+  width: 260px;
+
+}
+.column-para{
+  padding: 30PX;
+  font-family: Montserrat;
+
+}
+.recent-part{
+  margin: 30px 0;
+  background-color: #FEDB39;
+}
+.recent-header{
+  width: 100%;
+
+
+
+}
+
+.mid-heading{
+  text-align: center;
+}
+.lower-para{
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+.mid-head{
+  width: 29%;
+  text-align: center;
+  float: left;
+  margin: 11px;
+}
+
+.mid-head img{
+  padding-left: 40PX;
+  margin-bottom: 15px;
+  float: left;
+  height: 200px;
+  width: 307px;
+
+}
+
+.mid-area{
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+.company{
+  margin: 30px 0;
+}
+
+.project{
+  width: 100%;
+}
+.lower-head{
+  text-align: center;
+
+}
+
+
+.start-para{
+  padding: 30px;
+  font-family: Montserrat;
+}
+
+.right-side{
+  width: 45%;
+  float: left;
+
+}
+
+.left-side{
+  width: 45%;
+  float: right;
+
+}
+
+.right-para{
+  font-family: Montserrat;
+}
+.arrow-right{
+  float: left;
+  height: 20px;
+}
+.list{
+  padding-left: 0;
+  margin-top: 15px;
+}
+
+.extra{
+  list-style: none;
+  margin-top: 10px;
+}
+.points{
+  font-family: Montserrat;
+  line-height: 1.5;
+  padding-left: 30px;
+
+}
+
+.buttonClass {
+  text-decoration: none;
+  font-size:15px;
+  font-family:Arial;
+  /* width:140px;
+  height:41px; */
+  padding: 13PX 32PX;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(133, 212, 96, 1);
+  font-weight:bold;
+  border-top-left-radius:4px;
+  border-top-right-radius:4px;
+  border-bottom-left-radius:4px;
+  border-bottom-right-radius:4px;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+  text-shadow: 0px 1px 0px #5b8a3c;
+  background:#77b55a;
+}
+
+.buttonClass:hover {
+  background: #72b352;
+}
+
+.footer-background{
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row-footer{
+  width: 100%;
+}
+
+.column-footer{
+  width: 23%;
+  float:left;
+  margin: 11px;
+}
+
+.footer-list{
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.list-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-links{
+  text-decoration: none;
+  font-family: Montserrat;
+  color:#ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-links:hover{
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+
+h5{
+  font-family: Montserrat;
+  color: #c4fb6d;
+  text-shadow: 0 0 0.8em #c4fb6d, 0 0 0.6em #bac964;
+}
+
+.company-address{
+  font-family: Merriweather;
+  font-size: 12px;
+  line-height: 3;
+  color: #ffffff;
+}
+
+.company-phone{
+  font-family: Merriweather;
+  font-size:12px;
+  line-height: 3;
+  color: #ffffff;
+}
